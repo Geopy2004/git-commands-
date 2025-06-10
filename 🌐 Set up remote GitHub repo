@@ -1,0 +1,31 @@
+🌐 Set up remote GitHub repo
+Go to GitHub > Create new repo
+Example: Read-and-Grow-Mobile-Reading-App-BackEndApi
+
+Copy your repo URL
+Example:
+https://github.com/Geopy2004/Read-and-Grow-Mobile-Reading-App-BackEndApi.git
+
+Add it as your remote:
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+Create a new branch (optional but recommended)
+git checkout -b branch-1
+
+🚀 Push to GitHub
+git push -u origin branch-1
+
+🔁 For Future Updates in the Same Project
+Whenever you make changes:
+git add .
+git commit -m "Your message here"
+git push
+
+If you created new branches:
+
+git checkout -b new-feature
+# do work
+git add .
+git commit -m "Added new feature"
+git push -u origin new-feature
+
