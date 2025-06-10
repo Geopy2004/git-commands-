@@ -1,0 +1,8 @@
+
+cd your/new/project/path
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main           # or skip if you’ll use a different branch
+git remote add origin https://github.com/YOUR_USERNAME/NEW_REPO_NAME.git
+git push -u origin main
