@@ -1,4 +1,4 @@
-
+Use this basic setup every time: 
 cd your/new/project/path
 git init
 git add .
